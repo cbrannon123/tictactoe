@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+  body {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  
+  td {
+    
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid black;
+    
+ }
+ 
+ 
+   
+ 
+  
+  button {
+    background-color: lightgray;
+    color: coral;
+    height: 30px;
+    width: 50px;
+    margin: 30px;
+  }
+
+  
+  td:hover{
+    
+    background-color: whitesmoke;
+    
+    
+    }
+
+  
+  
+
+  
